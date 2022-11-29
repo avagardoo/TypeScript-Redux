@@ -34,7 +34,7 @@ export const Controls = () => {
       <Search />
       <CustomSelect
         options={options}
-        placeholder="Filter by Region"
+        placeholder="Filter by Regions"
         isClearable
         isSearchable={false}
         value={optionsMap[region] || ''}
